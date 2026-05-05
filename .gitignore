@@ -1,0 +1,37 @@
+# Node
+node_modules/
+dist/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# API output (Excel files) — CORPCODE.xml은 제외하지 않음 (Vercel 배포에 필요)
+api/output/
+# DART 임시 캐시 (런타임 생성분만 제외, api/CORPCODE.xml은 커밋 대상)
+/tmp/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
