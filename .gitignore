@@ -14,6 +14,7 @@ env/
 # API output (Excel files) — CORPCODE.xml은 제외하지 않음 (Vercel 배포에 필요)
 api/output/
 api/dart_output/
+api/CORPCODE.xml
 # DART 임시 캐시 (런타임 생성분만 제외, api/CORPCODE.xml은 커밋 대상)
 /tmp/
 
